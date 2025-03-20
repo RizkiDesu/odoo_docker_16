@@ -1,6 +1,6 @@
 postgresql/
+custom_addons/
 etc/odoo-server.log
 etc/addons/
 etc/sessions/
 etc/filestore/
-custom_addons/
