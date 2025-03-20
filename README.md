@@ -1,4 +1,4 @@
-# Odoo CDN Training with docker
+# Odoo with docker
 * default master pasword : `rizkidesu@2022`
 * link : `localhost:10016`
 * managae database : `localhost:10016/web/database/manager`
@@ -70,7 +70,7 @@ docker-compose down
 - [modif_code_form](https://github.com/minhng92)
 
 
-## 7 CDN Ttaining screenshots.
+## 7 screenshots.
 
 
 <img src="screenshots/posgree.png" width="50%">
