@@ -16,7 +16,7 @@ git clone https://github.com/RizkiDesu/odoo_docker.git
 - **If you get any permission issues**, change the folder permission to make sure that the container is able to access the directory:
 
 ``` sh
-sudo chmod -R 777 addons
+sudo chmod -R 777 custom_addons
 sudo chmod -R 777 etc
 sudo chmod -R 777 postgresql
 ```
@@ -32,9 +32,8 @@ Then open `localhost:8069` to access Odoo 16.0.
 ## 2 SCAFFOLDING Odoo
 
 ``` sh
-docker exec -it <nama_kontainer> /usr/bin/odoo scaffold <nama-modul> /mnt/extra-addons
+docker exec -it <name_container> /usr/bin/odoo scaffold <name_new_modul> /mnt/extra-addons/<name_directory>
 ```
-
 
 ## 3 Odoo container management
 

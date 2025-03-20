@@ -21,7 +21,7 @@ services:
       - "8069:8069"
       - "8072:8072" # live chat
     tty: true
-    command: --         # FOR DEVELOPMENT =>    dev xml,reload
+    command: --dev xml,reload         # Remove for production   
     environment:
       - HOST=db
       - USER=b2RvbzE2
