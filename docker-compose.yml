@@ -5,7 +5,7 @@ services:
     user: root
     environment:
       - POSTGRES_USER=b2RvbzE2
-      - POSTGRES_PASSWORD=b2RvbzE2
+      - POSTGRES_PASSWORD=b2RvbzE2cml6a2lkZXN1
       - POSTGRES_DB=postgres
     ports:
       - "5432:5432"
@@ -25,7 +25,7 @@ services:
     environment:
       - HOST=db
       - USER=b2RvbzE2
-      - PASSWORD=b2RvbzE2
+      - PASSWORD=b2RvbzE2cml6a2lkZXN1
     volumes:
       #- /etc/timezone:/etc/timezone:ro
       #- /etc/localtime:/etc/localtime:ro

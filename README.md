@@ -1,7 +1,7 @@
 # Odoo with docker
 * default master pasword : `rizkidesu@2022`
-* link : `localhost:10016`
-* managae database : `localhost:10016/web/database/manager`
+* link : `localhost:8069`
+* managae database : `localhost:8069/web/database/manager`
 
 ## 1 Usage
 
@@ -26,7 +26,7 @@ sudo chmod -R 777 postgresql
 docker-compose up
 ```
 
-Then open `localhost:10016` to access Odoo 16.0.
+Then open `localhost:8069` to access Odoo 16.0.
 
 
 ## 2 SCAFFOLDING Odoo
