@@ -30,7 +30,7 @@ services:
       #- /etc/timezone:/etc/timezone:ro
       #- /etc/localtime:/etc/localtime:ro
       # - ./entrypoint.sh:/entrypoint.sh 
-      - ./custom_addons:/mnt/extra-addons
+      - ./addons:/mnt/extra-addons
       - ./etc:/etc/odoo
     restart: always
     
